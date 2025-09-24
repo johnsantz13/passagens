@@ -1,0 +1,50 @@
+body {  
+    background: url(/assets/3302177.jpg) repeat-x;
+    font-size: 15pt;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+header{
+    color: aliceblue;
+    height: 300px;
+}
+
+header img{
+    width: 15%;
+    float: right;
+}
+
+main{
+    padding-top: 10px;
+    text-align: center;
+    background-color: rgb(186, 147, 221);
+    color: aliceblue;
+    border: 3px solid rgb(118, 118, 118);
+}
+
+section{
+    padding-top: 15px;
+    background-color: rgb(194, 166, 219);
+    height: 350px;
+    padding-bottom: 10px;
+}
+
+button{
+    padding: 10px;
+    border-radius:10px ;
+    border: none;
+    background-color: rgb(119, 189, 255);
+}
+
+input[type="number"]{
+    border: none;
+    padding: 10px;
+    border-radius: 15px;
+}
+
+footer{
+    text-align: center;
+    color: aliceblue;
+    font-size: 17pt;
+}

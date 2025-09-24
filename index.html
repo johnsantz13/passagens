@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PlayBus</title>
+    <link rel="stylesheet" href="style/style.css">
+    <link rel="shortcut icon" href="/assets/android-chrome-192x192.png" type="image/x-icon">
+</head>
+
+<body>
+    <header>
+        <img src="assets/—Pngtree—hand drawn blue bus illustration_5767273.png" alt="">
+        <h1>Bem Vindo(a)! Ao Play Bus</h1>
+            <p>
+                O melhor site para seus descontos, preencha os campos abaixo e lhe daremos <br> os melhores descontos de passagem
+            </p>
+    </header>
+    <main>
+        <p>Regras
+            <br>
+            Valor base da passagem: R$ 7.00
+            <br>
+            Crianças até 5 anos não pagam
+            <br>
+            Estudantes entre 6 e 24 anos pagam meia (50%)
+            <br>
+            Idosos (acima de 60 anos) pagam 25% do valor
+            <br>
+            Todos os outros pagam o valor cheio
+        </p>
+        <section class="formulario">
+            <div id="tela">
+                <form method="post">
+                    <p>Você é Estudante?</p>
+                    <label for="cyes">Sim</label>
+                    <input type="checkbox" name="SN" id="cyes">
+                    <label for="cno">Não</label>
+                    <input type="checkbox" name="SN" id="cno">
+                    <br>
+                    <label for="idade">Informe a sua idade</label>
+                    <br>
+                    <input type="number" name="fnum" id="idade" required placeholder="EX: 15">
+                </form>
+                <br>
+                <button onclick="desc()">GERAR DESCONTO</button>
+                <br><br>
+                <div id="preco">Desconto Futuro</div>
+                <br>
+                <div id="est">Desconto para Estudante</div>
+            </div>
+        </section>
+    </main>
+    <footer>Criado Por John Santos</footer>
+    <script src="script/script.js"></script>
+</body>
+
+</html>
