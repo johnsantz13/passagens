@@ -3,6 +3,7 @@ body {
     font-size: 15pt;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    height: 100vh;
 }
 
 header{
